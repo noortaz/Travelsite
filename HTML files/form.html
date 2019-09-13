@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Starting application</title>
+        <link rel="stylesheet" href="../CSS files/styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="main-header">
+                <h3 class="main-header__content--left"> Fly Away</h3>
+                <nav class="main-header__content--right">
+                    <ul class="list--places">
+                        <li class="list--places__names">
+                            <a class="list--places__links" href="home.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="list--places__names">
+                            <a class="list--places__links"
+                            href="hawaii.html">
+                                Hawaii
+                            </a>
+                        </li>
+                        <li class="list--places__names">
+                            <a class="list--places__links" href="iceland.html">
+                                Iceland
+                            </a>
+                        </li>
+                        <li class="list--places__names">
+                            <a class="list--places__links" href="greece.html">
+                                Greece
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form class="intro-form">
+                <div>
+                    <label class="intro-form__label" for="">Select Destination</label>
+                    <select class="intro-form__input box__effects" name="destination">
+                        <option value="hawaii">Hawaii</option>
+                        <option value="iceland">Iceland</option>
+                        <option value="greece">Greece</option>
+                    </select>
+                </div>
+                <h1 class="intro-form__heading">Contact Info</h1>
+                <div>
+                    <label class="intro-form__label" for="">First Name</label>
+                    <input class="intro-form__input box__effects" type="text" name="firstName" placeholder=" John">
+                </div>
+                <div>
+                    <label class="intro-form__label" for="">Last Name</label>
+                    <input class="intro-form__input box__effects" type="text" name="lastName" placeholder=" Watson">
+                </div>
+                <div>
+                    <label class="intro-form__label" for="">Email</label>
+                    <input class="intro-form__input box__effects" type="email" name="email" placeholder=" john@company.com">
+                </div>          
+                <div>
+                    <label class="intro-form__label" for="">Phone</label>
+                    <input class="intro-form__input box__effects" type="text" name="phone" placeholder=" 647123456">
+                </div>          
+                <div>
+                    <label class="intro-form__label" for="">Message</label>
+                    <textarea class="intro-form__input box__effects" name="message" rows="5" cols="60"></textarea>
+                </div>
+                <button class="button-all button-apply">Let's begin</button>
+            </form>  
+        </main>
+    </body>
+</html>
+
+

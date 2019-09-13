@@ -1,0 +1,251 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/******* Fixed navigation bar *******/
+
+.main-header {
+    display: block;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+    height: 4rem;
+}
+
+.main-header__content--left {
+    text-align: left;
+    display: inline-block;
+    color: #2d3982;
+    padding-left: 3rem;
+}
+
+.main-header__content--right {
+    text-align: right;
+    position: absolute;
+    top: 2%;
+    right: 7.5%;
+}
+
+.list--places__names {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1rem;
+}
+
+.list--places__links {
+    text-decoration-line: none;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+/**** Same class for all the active pages ****/
+.list--places__links:hover, .active-page {
+    border: 5px solid #e37889;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/******* End of Fixed navigation bar *******/
+
+/******** Hero ********/
+
+.hero-container {
+    background-color: #f8f8f8;
+    position: relative;
+    top: 4rem;
+    padding-bottom: 7rem;
+}
+
+.hero-container__content {
+    color: #101d42;
+    width: 45%;
+    text-align: justify;
+    padding: 4.5rem 0 2rem 6rem;
+    display: inline-block;
+}
+
+.hero-container__slogan {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 2.1rem;
+}
+
+.hero-container__text {
+    font-size: 0.9rem;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.hero-container__image {
+    position: relative;
+    top: 5rem;
+    left: 2.5rem;
+    width: 28rem;
+    height: 21rem;
+}
+
+/**** Same class for all buttons ****/
+.hero-container__button--start, .button-all {
+    color: white;
+    background-color: #5969d0;
+    border: 1px solid #5969d0;
+    border-radius: 20px;
+    padding: .5rem 2.2rem;
+}
+
+/******** End of Hero ********/
+
+/******** Recommendation Cards ******/
+
+.cards--recommendations {
+    position: relative;
+    top: 4rem;
+}
+
+.cards__heading {
+    color: #101d42;
+    font-weight: bold;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+/**** Same class for all card size ****/
+.cards__size {
+    width: 15rem;
+    height: 20rem;
+    margin-bottom: 1rem;
+}
+
+/**** Same class for all box-shadow effects ****/
+.box__effects {
+    border: 1px solid rgba(0, 0, 0, 0.200);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.200);
+}
+
+.cards__position {
+    text-align: center;
+    position: relative;
+}
+
+.cards__links {
+    text-decoration: none;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    margin-right: 16rem;
+}
+
+ .cards__nametag {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 15rem;
+    right: -12rem;
+    color: white;
+}
+
+/******** End of Recommendation Cards ******/
+
+/****** Destination pages *****/
+
+.back-img {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.title--destination{
+    color: white;
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    font-size: 2rem;
+    padding: 0;
+}
+
+.activities {
+    text-align: center;
+    position: absolute;
+    top: 25rem;
+    left: 14rem;
+}
+
+.activities__list {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem;
+    background-color: white;
+}
+
+.activities__list__items {
+    background-color: #f0f0f0;
+    border: 2px solid #f0f0f0;
+    margin: 1rem;
+    font-size: 1rem; 
+    padding: 0.5rem;
+}
+
+.activities__list__items:hover {
+    border: 2px solid #f0f0f091;
+    background-color: #d3d1d180;
+    margin: 1rem;
+    font-size: 1rem; 
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.activities__day {
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+/****** End of Destination pages *****/
+
+/********* Application form *********/
+
+.intro-form {
+    position: relative;
+    top: 4rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.intro-form__heading {
+    font-size: 1.5rem;
+    color:  #101d42;
+}
+
+.intro-form__label {
+    font-size: 0.8rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: 900;
+}
+
+.intro-form__input {
+    font-size: 0.8rem;
+    margin: 1rem;
+    background-color: white;
+    line-height: 1.5rem;
+}
+
+.button-apply {
+    margin: 2rem;
+}
+
+/********* End of Application form *********/
